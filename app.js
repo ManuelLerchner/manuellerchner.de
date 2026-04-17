@@ -23,13 +23,14 @@ app.use("/impressum", require("./routes/impressum"));
 app.use(robots(__dirname + "/robots.txt"));
 
 app.get("/*", function (req, res) {
-    res.render("error/pageNotFound", { layout: "error" });
+  res.render("error/pageNotFound", { layout: "error" });
 });
 
-const PORT = process.env.NODE_ENV == "developement"
-    ? (process.env.HTTP_DEV_PORT || 3000)
-    : (process.env.HTTP_PORT || 8080);
+const PORT =
+  process.env.NODE_ENV === "developement"
+    ? process.env.HTTP_DEV_PORT || 3000
+    : process.env.HTTP_PORT || 8080;
 
 app.listen(PORT, () =>
-    console.log(`Website running in ${process.env.NODE_ENV} mode on port ${PORT}`)
+  console.log(`Website running in ${process.env.NODE_ENV} mode on port ${PORT}`)
 );
