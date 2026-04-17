@@ -1,5 +1,8 @@
 fetch("/data/projects.json")
-  .then((r) => r.json())
+  .then((r) => {
+    if (!r.ok) throw new Error(`Failed to load projects (${r.status})`);
+    return r.json();
+  })
   .then((projects) => {
     const grid = document.getElementById("projects-grid");
     projects.forEach((p) => {
@@ -20,4 +23,14 @@ fetch("/data/projects.json")
         </div>`
       );
     });
+  })
+  .catch((err) => {
+    console.error("Could not load projects:", err);
+    const grid = document.getElementById("projects-grid");
+    if (grid) {
+      grid.insertAdjacentHTML(
+        "beforeend",
+        `<p class="col s12 center-align">Projects could not be loaded. Please try again later.</p>`
+      );
+    }
   });
