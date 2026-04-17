@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Lambda Calculus",
+    "description": "In this project, I built a parser and interpreter for the λ-calculus in Python. In the end, I was able to create some smaller programs in my self-developed programming language",
+    "image": "/images/lambdaCalculusThumbnail.jpg",
+    "link": "https://lambdacalculus.manuellerchner.de",
+    "idx": 1,
+    "date": "30. Jul 2021"
+  },
+  {
+    "title": "Path-Finder",
+    "description": "In this project I implemented the AStar, Dijksta, Depth-First and Breadth-First pathfinding-algorithms in a react-app. Additionally, I created a basic UI to interact with the game",
+    "image": "/images/pathFinderThumbnail.jpg",
+    "link": "https://pathfinder.manuellerchner.de",
+    "idx": 2,
+    "date": "23. Aug 2021"
+  },
+  {
+    "title": "Monopoly-Bank",
+    "description": "I built a website for a custom-made 'Monopoly-Cities' I've built with my friends. The website is the programming part of the project, while my colleagues created the physical game",
+    "image": "/images/Monopoly.jpg",
+    "link": "https://monopoly.manuellerchner.de",
+    "idx": 3,
+    "date": "03. Oct 2021"
+  },
+  {
+    "title": "Task-Planner",
+    "description": "This is a small Task-Tracker website that allows you to keep track of your Projects. The website is built as a PWA, so you can download the website and use it offline as well",
+    "image": "/images/TaskPlanner1.png",
+    "link": "https://taskplanner.manuellerchner.de",
+    "idx": 4,
+    "date": "09. Mar 2022"
+  },
+  {
+    "title": "Mock-Trading",
+    "description": "This project implements a Mock-Trading Website, where you can buy and sell cryptocurrencies. The prices get updated regularly, so you can see how your money grows in real-time",
+    "image": "/images/MockTrading.png",
+    "link": "https://mocktrading.manuellerchner.de",
+    "idx": 5,
+    "date": "20. Mar 2022"
+  },
+  {
+    "title": "Expense-Tracker",
+    "description": "In this project, I built a simple Expense-Tracker to keep track of all the expenses I made. The underlying database was created with a MariaDB-Server running on my local backend-server",
+    "image": "/images/ExpenseTracker.png",
+    "link": "https://expensetracker.manuellerchner.de",
+    "idx": 6,
+    "date": "03. Apr 2022"
+  },
+  {
+    "title": "Mineflayer-Compiler",
+    "description": "This project explores the mineflayer-api for minecraft bots. But instead of creating the underlying state-machine by hand, I built an entire compiler / programming language around it",
+    "image": "/images/MinecraftBot.png",
+    "link": "https://minecraft-bot.manuellerchner.de",
+    "idx": 7,
+    "date": "16. Apr 2022"
+  },
+  {
+    "title": "Restaurant-App",
+    "description": "This Application is the result of a university project I created together with my team. The goal was to build a website where you can create restaurants-reservations in munich",
+    "image": "/images/RestaurantApp.png",
+    "link": "https://restaurantapp.manuellerchner.de",
+    "idx": 8,
+    "date": "22. Jul 2022"
+  },
+  {
+    "title": "Tile Planner",
+    "description": "A project built for my Dad to help him plan his next tile project. It is a simple web app that allows him to draw a floor plan and place tiles into it",
+    "image": "/images/tile-planner.png",
+    "link": "https://tile-planner.manuellerchner.de",
+    "idx": 9,
+    "date": "11. Apr 2023"
+  },
+  {
+    "title": "Personpedia",
+    "description": "This website represents an online encyclopedia of famous people. It was created together with a friend of mine and heavily makes use of AI to generate content",
+    "image": "/images/personpedia.png",
+    "link": "https://thepersonpedia.com",
+    "idx": 10,
+    "date": "24. Feb 2024"
+  },
+  {
+    "title": "Algo Explorer",
+    "description": "The goal of the project is to provide an easy way to learn how an algorithm works by visualizing its behavior step by step. Many fundamental algorithms can be explored",
+    "image": "/images/algorithm-explorer.png",
+    "link": "https://algoexplorer.manuellerchner.de",
+    "idx": 11,
+    "date": "23. Mar 2024"
+  },
+  {
+    "title": "Cell Collectives",
+    "description": "A simulation platform to study the behavior of bacteria and cellular dynamics in biological systems. This was developed as part of my IDP thesis at TUM",
+    "image": "/images/bacteria.png",
+    "link": "https://home.cit.tum.de/~ler/bacteria/",
+    "idx": 12,
+    "date": "30. Oct 2025"
+  }
+]
