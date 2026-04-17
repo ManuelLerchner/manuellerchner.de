@@ -31,4 +31,4 @@ jobs:
         run: npm run lint
 
       - name: Check formatting
-        run: npx prettier --check "public/**/*.{js,html,json}"
+        run: npm run format:check

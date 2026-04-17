@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint public/js",
     "lint:fix": "eslint public/js --fix",
-    "format": "prettier --write \"public/**/*.{js,html,json}\" --ignore-path .prettierignore"
+    "format": "prettier --write \"public/**/*.{js,html,json}\" --ignore-path .prettierignore",
+    "format:check": "prettier --check \"public/**/*.{js,html,json}\" --ignore-path .prettierignore"
   },
   "author": "Manuel Lerchner",
   "license": "ISC",
