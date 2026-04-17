@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Manuel Lerchner</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#212121" />
+    <meta
+      name="description"
+      content="Personal website of Manuel Lerchner — Computer Science student and developer."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4ESP3J0S9H"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-4ESP3J0S9H");
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/png" href="/images/logo2.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        M.Sidenav.init(document.querySelectorAll(".sidenav"));
+        M.Parallax.init(document.querySelectorAll(".parallax"));
+        M.Dropdown.init(document.querySelectorAll(".dropdown-trigger"));
+      });
+    </script>
+  </head>
+
+  <body class="bg">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+      <nav class="black" role="navigation">
+        <div class="nav-wrapper">
+          <div class="left marginLeft">
+            <div class="logo-container">
+              <a href="/" class="brand-logo rainbow">
+                <div class="Logo"><img class="logoImage" src="/images/logo2.png" /></div>
+              </a>
+              <a class="LogoText hide-on-med-and-down rainbow" href="/">Lerchner Manuel</a>
+            </div>
+          </div>
+          <ul class="right hide-on-med-and-down navbarText marginRight">
+            <li id="nav-home" class="activePage">
+              <a href="/"><i class="material-icons left md-36">home</i>Home</a>
+            </li>
+            <li id="nav-contact">
+              <a href="mailto:dev@manuellerchner.de"
+                ><i class="material-icons left md-36">mail_outline</i>Contact</a
+              >
+            </li>
+            <li id="nav-cv">
+              <a href="https://manuellerchner.github.io/cv/"
+                ><i class="material-icons left md-36">description</i>CV</a
+              >
+            </li>
+            <li id="nav-about">
+              <a href="/about.html"><i class="material-icons left md-36">info_outline</i>About</a>
+            </li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+        </div>
+      </nav>
+    </div>
+    <ul id="nav-mobile" class="sidenav blue-grey lighten-1">
+      <li class="activePage">
+        <a href="/"><i class="material-icons left md-36">home</i>Home</a>
+      </li>
+      <li>
+        <a href="mailto:dev@manuellerchner.de"
+          ><i class="material-icons left md-36">mail_outline</i>Contact</a
+        >
+      </li>
+      <li>
+        <a href="https://manuellerchner.github.io/cv/"
+          ><i class="material-icons left md-36">description</i>CV</a
+        >
+      </li>
+      <li>
+        <a href="/about.html"><i class="material-icons left md-36">info_outline</i>About</a>
+      </li>
+    </ul>
+
+    <!-- Hero -->
+    <div id="index-banner" class="parallax-container border paralaxBig">
+      <div class="top">
+        <div class="container">
+          <h1 class="header center white-text text-lighten-2 bold">Manuel Lerchner</h1>
+          <h5 class="subtext center white-text text-lighten-2">
+            Computer Science Student, Developer.
+          </h5>
+        </div>
+      </div>
+      <div class="parallax"><img class="blurr" src="/images/Developer.jpg" /></div>
+    </div>
+
+    <!-- Projects banner -->
+    <div id="projects-banner" class="parallax-container border marginTop">
+      <div class="top">
+        <div class="container">
+          <h1 class="header center white-text text-lighten-2 bold">Projects</h1>
+          <h5 class="subtext center white-text text-lighten-2">
+            Take a look at some of the projects I worked on
+          </h5>
+        </div>
+      </div>
+      <div class="parallax"><img class="blurr" src="/images/Cyber.jpg" /></div>
+    </div>
+
+    <!-- Project cards -->
+    <div class="row" id="projects-grid"></div>
+
+    <!-- Footer -->
+    <footer class="page-footer black spacer border footerText">
+      <div class="row">
+        <div class="col s4 l3 offset-l1 offset-s1">
+          <h5 class="orange-text descriptionText">About</h5>
+          <p class="grey-text text-lighten-4">
+            This is my personal website and a place for me to share some of the projects I am
+            working on.
+          </p>
+        </div>
+        <div class="col s3 l3 offset-l1">
+          <h5 class="orange-text descriptionText">Contact Me</h5>
+          <p>
+            <span class="iconify" data-icon="eva:email-outline" data-inline="true"></span>
+            dev@manuellerchner.de
+          </p>
+        </div>
+        <div class="col s3 l3 offset-l1">
+          <h5 class="orange-text descriptionText">Social Media</h5>
+          <ul>
+            <li class="youtube">
+              <a href="https://www.youtube.com/channel/UCvIGqQ5pelOqwaKOFaqiP4w"
+                ><span class="iconify" data-icon="mdi-youtube" data-inline="true"></span> Youtube</a
+              >
+            </li>
+            <li class="twitter">
+              <a href="https://twitter.com/ManuelLerchner"
+                ><span
+                  class="iconify"
+                  data-icon="akar-icons:twitter-fill"
+                  data-inline="true"
+                ></span>
+                Twitter</a
+              >
+            </li>
+            <li class="github">
+              <a href="https://github.com/ManuelLerchner"
+                ><span class="iconify" data-icon="akar-icons:github-fill" data-inline="true"></span>
+                Github</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="center">
+          <a href="/about.html">&copy; Manuel Lerchner</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/home.js"></script>
+  </body>
+</html>

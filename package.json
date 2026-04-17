@@ -1,40 +1,22 @@
 {
-    "name": "manuellerchner-website",
-    "version": "1.0.0",
-    "description": "Personal Website",
-    "main": "app.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ManuelLerchner/Manuel-Lerchner-Website.git"
-    },
-    "scripts": {
-        "start": "cross-env NODE_ENV=production node app.js",
-        "dev": "cross-env NODE_ENV=developement nodemon app.js"
-    },
-    "author": "Manuel Lerchner",
-    "license": "ISC",
-    "dependencies": {
-        "bluebird": "^3.7.2",
-        "cors": "^2.8.5",
-        "dotenv": "^17.2.3",
-        "express": "^4.22.0",
-        "express-handlebars": "^5.3.2",
-        "express-subdomain": "^1.0.6",
-        "googleapis": "^169.0.0",
-        "hbs": "^4.1.2",
-        "mongoose": "^9.0.2",
-        "morgan": "^1.10.1",
-        "nodemailer": "^7.0.11",
-        "onoff": "^6.0.3",
-        "path": "^0.12.7",
-        "ping": "^0.4.1",
-        "robots.txt": "^1.1.0",
-        "socket.io": "^4.8.1",
-        "vhost": "^3.0.2",
-        "winston": "^3.19.0"
-    },
-    "devDependencies": {
-        "cross-env": "^10.1.0",
-        "nodemon": "^3.1.11"
-    }
+  "name": "manuellerchner-website",
+  "version": "1.0.0",
+  "description": "Personal Website — static",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManuelLerchner/Manuel-Lerchner-Website.git"
+  },
+  "scripts": {
+    "lint": "eslint public/js",
+    "lint:fix": "eslint public/js --fix",
+    "format": "prettier --write \"public/**/*.{js,html,json}\" --ignore-path .prettierignore",
+    "format:check": "prettier --check \"public/**/*.{js,html,json}\" --ignore-path .prettierignore"
+  },
+  "author": "Manuel Lerchner",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^10.2.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.3"
+  }
 }
