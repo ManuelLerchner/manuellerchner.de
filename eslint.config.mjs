@@ -2,21 +2,17 @@ import eslintConfigPrettier from "eslint-config-prettier";
 
 export default [
   {
-    ignores: ["node_modules/**", "public/**"],
+    ignores: ["node_modules/**"],
   },
   {
-    files: ["**/*.js"],
+    files: ["public/js/**/*.js"],
     languageOptions: {
       ecmaVersion: 2022,
-      sourceType: "commonjs",
+      sourceType: "script",
       globals: {
-        require: "readonly",
-        module: "readonly",
-        exports: "readonly",
-        __dirname: "readonly",
-        __filename: "readonly",
-        process: "readonly",
-        console: "readonly",
+        document: "readonly",
+        window: "readonly",
+        fetch: "readonly",
       },
     },
     rules: {
