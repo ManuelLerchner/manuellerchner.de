@@ -353,25 +353,23 @@ evaluated to:                       #Lookup
 'TWENTY-FOUR'
 `;
 function codeToString(str) {
-    return str.substring(1);
+  return str.substring(1);
 }
 
 function escapeHtml(unsafe) {
-    return unsafe
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
 
 document.getElementById("code-python1").innerHTML = codeToString(targetCode);
 document.getElementById("code-python2").innerHTML = codeToString(lexerCode);
 document.getElementById("code-python3").innerHTML = codeToString(tokenCode);
 document.getElementById("code-python4").innerHTML = codeToString(lexerTest);
-document.getElementById("code-python5").innerHTML = codeToString(
-    escapeHtml(grammar)
-);
+document.getElementById("code-python5").innerHTML = codeToString(escapeHtml(grammar));
 document.getElementById("code-python6").innerHTML = codeToString(grammarExpl);
 document.getElementById("code-python7").innerHTML = codeToString(parserCode);
 document.getElementById("code-python8").innerHTML = codeToString(nodeCode);
@@ -380,6 +378,5 @@ document.getElementById("code-python10").innerHTML = codeToString(interprCode);
 document.getElementById("code-python11").innerHTML = codeToString(finalExpl);
 
 document.getElementById("code-python12").innerHTML = codeToString(booleanCode);
-document.getElementById("code-python13").innerHTML =
-    codeToString(arithmeticCode);
+document.getElementById("code-python13").innerHTML = codeToString(arithmeticCode);
 document.getElementById("code-python14").innerHTML = codeToString(factCode);
