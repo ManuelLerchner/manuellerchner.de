@@ -94,5 +94,15 @@
     "link": "https://home.cit.tum.de/~ler/bacteria/",
     "idx": 12,
     "date": "30. Oct 2025"
+  },
+  {
+    "title": "Panic! At the Console",
+    "description": "A lightweight incident management system with immutable event logs, real-time updates, and AI-assisted triage and postmortems. Built for the",
+    "image": "/images/panic-dashboard.png",
+    "link": "https://panic.manuellerchner.de/",
+    "repository": "https://github.com/AET-DevOps26/team-panic-at-the-console",
+    "repositoryText": "TUM DevOps Project 2026",
+    "idx": 13,
+    "date": "18. Jul 2026"
   }
 ]

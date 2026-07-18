@@ -6,6 +6,10 @@ fetch("/data/projects.json")
   .then((projects) => {
     const grid = document.getElementById("projects-grid");
     projects.forEach((p) => {
+      const repositoryLink = p.repository
+        ? ` <a href="${p.repository}" target="_blank" rel="noopener">${p.repositoryText}</a>`
+        : "";
+
       grid.insertAdjacentHTML(
         "beforeend",
         `<div class="col s12 m6 l4">
@@ -14,7 +18,7 @@ fetch("/data/projects.json")
               <img src="${p.image}" alt="${p.title}" />
               <span class="card-title">${p.title}</span>
             </div>
-            <div class="card-content"><p>${p.description}.</p></div>
+            <div class="card-content"><p>${p.description}${repositoryLink}.</p></div>
             <div class="card-action">
               <a href="${p.link}" class="btn blue" target="_blank" rel="noopener">Explore</a>
               <p class="date">${p.date}</p>
