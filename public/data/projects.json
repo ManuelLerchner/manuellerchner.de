@@ -88,11 +88,21 @@
     "date": "23. Mar 2024"
   },
   {
+    "title": "Fuzzy Tuning for AutoPas",
+    "description": "A bachelor's thesis on fuzzy-logic tuning for AutoPas molecular-dynamics simulations. Explore the",
+    "image": "/images/autopas.png",
+    "link": "https://mediatum.ub.tum.de/node?id=1752754",
+    "repository": "https://github.com/ManuelLerchner/AutoPas-FuzzyTuning-Bachelor-Thesis",
+    "repositoryText": "GitHub repository",
+    "idx": 12,
+    "date": "13. Apr 2024"
+  },
+  {
     "title": "Cell Collectives",
     "description": "A simulation platform to study the behavior of bacteria and cellular dynamics in biological systems. This was developed as part of my IDP thesis at TUM",
     "image": "/images/bacteria.png",
     "link": "https://home.cit.tum.de/~ler/bacteria/",
-    "idx": 12,
+    "idx": 13,
     "date": "30. Oct 2025"
   },
   {
@@ -102,7 +112,7 @@
     "link": "https://panic.manuellerchner.de/",
     "repository": "https://github.com/AET-DevOps26/team-panic-at-the-console",
     "repositoryText": "TUM DevOps Project 2026",
-    "idx": 13,
+    "idx": 14,
     "date": "18. Jul 2026"
   }
 ]
