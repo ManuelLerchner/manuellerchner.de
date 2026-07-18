@@ -72,11 +72,19 @@
     "date": "11. Apr 2023"
   },
   {
+    "title": "FreshFinder",
+    "description": "A hackaTUM 2023 prototype for personalized recipe recommendations and synchronized cooking with friends",
+    "image": "/images/freshfinder.png",
+    "link": "https://devpost.com/software/freshfinder",
+    "idx": 10,
+    "date": "17. Nov 2023"
+  },
+  {
     "title": "Personpedia",
     "description": "This website represents an online encyclopedia of famous people. It was created together with a friend of mine and heavily makes use of AI to generate content",
     "image": "/images/personpedia.png",
     "link": "https://thepersonpedia.com",
-    "idx": 10,
+    "idx": 11,
     "date": "24. Feb 2024"
   },
   {
@@ -84,7 +92,7 @@
     "description": "The goal of the project is to provide an easy way to learn how an algorithm works by visualizing its behavior step by step. Many fundamental algorithms can be explored",
     "image": "/images/algorithm-explorer.png",
     "link": "https://algoexplorer.manuellerchner.de",
-    "idx": 11,
+    "idx": 12,
     "date": "23. Mar 2024"
   },
   {
@@ -94,7 +102,7 @@
     "link": "https://mediatum.ub.tum.de/node?id=1752754",
     "repository": "https://github.com/ManuelLerchner/AutoPas-FuzzyTuning-Bachelor-Thesis",
     "repositoryText": "GitHub repository",
-    "idx": 12,
+    "idx": 13,
     "date": "13. Apr 2024"
   },
   {
@@ -102,7 +110,7 @@
     "description": "A simulation platform to study the behavior of bacteria and cellular dynamics in biological systems. This was developed as part of my IDP thesis at TUM",
     "image": "/images/bacteria.png",
     "link": "https://home.cit.tum.de/~ler/bacteria/",
-    "idx": 13,
+    "idx": 14,
     "date": "30. Oct 2025"
   },
   {
@@ -112,7 +120,7 @@
     "link": "https://panic.manuellerchner.de/",
     "repository": "https://github.com/AET-DevOps26/team-panic-at-the-console",
     "repositoryText": "TUM DevOps Project 2026",
-    "idx": 14,
+    "idx": 15,
     "date": "18. Jul 2026"
   }
 ]
