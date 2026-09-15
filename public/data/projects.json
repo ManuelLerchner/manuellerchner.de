@@ -132,5 +132,15 @@
     "repositoryText": "TUM DevOps Project 2026",
     "idx": 16,
     "date": "18. Jul 2026"
+  },
+  {
+    "title": "Voblint",
+    "description": "A master's thesis on a static analyzer with a machine-checked soundness proof in Isabelle/HOL. Explore the",
+    "image": "/images/voblint.png",
+    "link": "https://manuellerchner.github.io/Voblint-Verification-Master-Thesis/",
+    "repository": "https://github.com/ManuelLerchner/Voblint-Verification-Master-Thesis",
+    "repositoryText": "GitHub repository",
+    "idx": 17,
+    "date": "15. Sep 2026"
   }
 ]
