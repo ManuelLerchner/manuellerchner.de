@@ -15,7 +15,13 @@ fetch("/data/projects.json")
         `<div class="col s12 m6 l4">
           <div class="card card2 medium">
             <div class="card-image">
-              <img src="${p.image}" alt="${p.title}" />
+              <img
+                src="${p.image}"
+                alt="${p.title}"
+                ${p.width ? `width="${p.width}" height="${p.height}"` : ""}
+                loading="lazy"
+                decoding="async"
+              />
               <span class="card-title">${p.title}</span>
             </div>
             <div class="card-content"><p>${p.description}${repositoryLink}.</p></div>

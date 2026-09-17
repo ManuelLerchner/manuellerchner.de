@@ -7,10 +7,11 @@
     "url": "https://github.com/ManuelLerchner/Manuel-Lerchner-Website.git"
   },
   "scripts": {
+    "preview": "python3 -m http.server 8000 --bind 127.0.0.1 --directory public",
     "lint": "eslint public/js",
     "lint:fix": "eslint public/js --fix",
-    "format": "prettier --write \"public/**/*.{js,html,json}\" --ignore-path .prettierignore",
-    "format:check": "prettier --check \"public/**/*.{js,html,json}\" --ignore-path .prettierignore"
+    "format": "prettier --write \"public/**/*.{js,css,html,json}\" --ignore-path .prettierignore",
+    "format:check": "prettier --check \"public/**/*.{js,css,html,json}\" --ignore-path .prettierignore"
   },
   "author": "Manuel Lerchner",
   "license": "ISC",

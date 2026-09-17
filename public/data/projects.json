@@ -2,145 +2,179 @@
   {
     "title": "Lambda Calculus",
     "description": "In this project, I built a parser and interpreter for the λ-calculus in Python. In the end, I was able to create some smaller programs in my self-developed programming language",
-    "image": "/images/lambdaCalculusThumbnail.jpg",
+    "image": "/images/lambdaCalculusThumbnail.webp",
     "link": "https://lambdacalculus.manuellerchner.de",
     "idx": 1,
-    "date": "30. Jul 2021"
+    "date": "30. Jul 2021",
+    "width": 1200,
+    "height": 647
   },
   {
     "title": "Path-Finder",
     "description": "In this project I implemented the AStar, Dijksta, Depth-First and Breadth-First pathfinding-algorithms in a react-app. Additionally, I created a basic UI to interact with the game",
-    "image": "/images/pathFinderThumbnail.jpg",
+    "image": "/images/pathFinderThumbnail.webp",
     "link": "https://pathfinder.manuellerchner.de",
     "idx": 2,
-    "date": "23. Aug 2021"
+    "date": "23. Aug 2021",
+    "width": 1200,
+    "height": 602
   },
   {
     "title": "Monopoly-Bank",
     "description": "I built a website for a custom-made 'Monopoly-Cities' I've built with my friends. The website is the programming part of the project, while my colleagues created the physical game",
-    "image": "/images/Monopoly.jpg",
+    "image": "/images/Monopoly.webp",
     "link": "https://monopoly.manuellerchner.de",
     "idx": 3,
-    "date": "03. Oct 2021"
+    "date": "03. Oct 2021",
+    "width": 1200,
+    "height": 597
   },
   {
     "title": "Task-Planner",
     "description": "This is a small Task-Tracker website that allows you to keep track of your Projects. The website is built as a PWA, so you can download the website and use it offline as well",
-    "image": "/images/TaskPlanner1.png",
+    "image": "/images/TaskPlanner1.webp",
     "link": "https://taskplanner.manuellerchner.de",
     "idx": 4,
-    "date": "09. Mar 2022"
+    "date": "09. Mar 2022",
+    "width": 1200,
+    "height": 594
   },
   {
     "title": "Mock-Trading",
     "description": "This project implements a Mock-Trading Website, where you can buy and sell cryptocurrencies. The prices get updated regularly, so you can see how your money grows in real-time",
-    "image": "/images/MockTrading.png",
+    "image": "/images/MockTrading.webp",
     "link": "https://mocktrading.manuellerchner.de",
     "idx": 5,
-    "date": "20. Mar 2022"
+    "date": "20. Mar 2022",
+    "width": 1200,
+    "height": 590
   },
   {
     "title": "Expense-Tracker",
     "description": "In this project, I built a simple Expense-Tracker to keep track of all the expenses I made. The underlying database was created with a MariaDB-Server running on my local backend-server",
-    "image": "/images/ExpenseTracker.png",
+    "image": "/images/ExpenseTracker.webp",
     "link": "https://expensetracker.manuellerchner.de",
     "idx": 6,
-    "date": "03. Apr 2022"
+    "date": "03. Apr 2022",
+    "width": 1200,
+    "height": 573
   },
   {
     "title": "Mineflayer-Compiler",
     "description": "This project explores the mineflayer-api for minecraft bots. But instead of creating the underlying state-machine by hand, I built an entire compiler / programming language around it",
-    "image": "/images/MinecraftBot.png",
+    "image": "/images/MinecraftBot.webp",
     "link": "https://minecraft-bot.manuellerchner.de",
     "idx": 7,
-    "date": "16. Apr 2022"
+    "date": "16. Apr 2022",
+    "width": 1185,
+    "height": 547
   },
   {
     "title": "Restaurant-App",
     "description": "This Application is the result of a university project I created together with my team. The goal was to build a website where you can create restaurants-reservations in munich",
-    "image": "/images/RestaurantApp.png",
+    "image": "/images/RestaurantApp.webp",
     "link": "https://restaurantapp.manuellerchner.de",
     "idx": 8,
-    "date": "22. Jul 2022"
+    "date": "22. Jul 2022",
+    "width": 1200,
+    "height": 673
   },
   {
     "title": "Tile Planner",
     "description": "A project built for my Dad to help him plan his next tile project. It is a simple web app that allows him to draw a floor plan and place tiles into it",
-    "image": "/images/tile-planner.png",
+    "image": "/images/tile-planner.webp",
     "link": "https://tile-planner.manuellerchner.de",
     "idx": 9,
-    "date": "11. Apr 2023"
+    "date": "11. Apr 2023",
+    "width": 1200,
+    "height": 609
   },
   {
     "title": "FreshFinder",
     "description": "A hackaTUM 2023 prototype for personalized recipe recommendations and synchronized cooking with friends",
-    "image": "/images/freshfinder.png",
+    "image": "/images/freshfinder.webp",
     "link": "https://devpost.com/software/freshfinder",
     "idx": 10,
-    "date": "17. Nov 2023"
+    "date": "17. Nov 2023",
+    "width": 836,
+    "height": 523
   },
   {
     "title": "Molecular Dynamics Simulation",
     "description": "A modular C++ molecular-dynamics simulator with OpenMP parallelization, developed as part of a TUM practical course.",
-    "image": "/images/molsim.png",
+    "image": "/images/molsim.webp",
     "link": "https://manuellerchner.github.io/MolSim-WS23-24/submissions/",
     "repository": "https://github.com/ManuelLerchner/MolSim-WS23-24",
     "repositoryText": "GitHub repository",
     "idx": 11,
-    "date": "30. Jan 2024"
+    "date": "30. Jan 2024",
+    "width": 1200,
+    "height": 739
   },
   {
     "title": "Personpedia",
     "description": "This website represents an online encyclopedia of famous people. It was created together with a friend of mine and heavily makes use of AI to generate content",
-    "image": "/images/personpedia.png",
+    "image": "/images/personpedia.webp",
     "link": "https://thepersonpedia.com",
     "idx": 12,
-    "date": "24. Feb 2024"
+    "date": "24. Feb 2024",
+    "width": 1200,
+    "height": 608
   },
   {
     "title": "Algo Explorer",
     "description": "The goal of the project is to provide an easy way to learn how an algorithm works by visualizing its behavior step by step. Many fundamental algorithms can be explored",
-    "image": "/images/algorithm-explorer.png",
+    "image": "/images/algorithm-explorer.webp",
     "link": "https://algoexplorer.manuellerchner.de",
     "idx": 13,
-    "date": "23. Mar 2024"
+    "date": "23. Mar 2024",
+    "width": 1200,
+    "height": 608
   },
   {
     "title": "Fuzzy Tuning for AutoPas",
     "description": "A bachelor's thesis on fuzzy-logic tuning for AutoPas molecular-dynamics simulations. Explore the",
-    "image": "/images/autopas.png",
+    "image": "/images/autopas.webp",
     "link": "https://mediatum.ub.tum.de/node?id=1752754",
     "repository": "https://github.com/ManuelLerchner/AutoPas-FuzzyTuning-Bachelor-Thesis",
     "repositoryText": "GitHub repository",
     "idx": 14,
-    "date": "13. Apr 2024"
+    "date": "13. Apr 2024",
+    "width": 1200,
+    "height": 831
   },
   {
     "title": "Cell Collectives",
     "description": "A simulation platform to study the behavior of bacteria and cellular dynamics in biological systems. This was developed as part of my IDP thesis at TUM",
-    "image": "/images/bacteria.png",
+    "image": "/images/bacteria.webp",
     "link": "https://home.cit.tum.de/~ler/bacteria/",
     "idx": 15,
-    "date": "30. Oct 2025"
+    "date": "30. Oct 2025",
+    "width": 1200,
+    "height": 608
   },
   {
     "title": "Panic! At the Console",
     "description": "A lightweight incident management system with immutable event logs, real-time updates, and AI-assisted triage and postmortems. Built for the",
-    "image": "/images/panic-dashboard.png",
+    "image": "/images/panic-dashboard.webp",
     "link": "https://panic.manuellerchner.de/",
     "repository": "https://github.com/AET-DevOps26/team-panic-at-the-console",
     "repositoryText": "TUM DevOps Project 2026",
     "idx": 16,
-    "date": "18. Jul 2026"
+    "date": "18. Jul 2026",
+    "width": 1200,
+    "height": 691
   },
   {
     "title": "Voblint",
     "description": "A master's thesis on a static analyzer with a machine-checked soundness proof in Isabelle/HOL. Explore the",
-    "image": "/images/voblint.png",
+    "image": "/images/voblint.webp",
     "link": "https://manuellerchner.github.io/Voblint-Verification-Master-Thesis/",
     "repository": "https://github.com/ManuelLerchner/Voblint-Verification-Master-Thesis",
     "repositoryText": "GitHub repository",
     "idx": 17,
-    "date": "15. Sep 2026"
+    "date": "15. Sep 2026",
+    "width": 1062,
+    "height": 592
   }
 ]
